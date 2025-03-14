@@ -6,7 +6,7 @@ In this work, we develop an out-of-distribution (OOD) Monitoring algorithm that 
 For more details about the Out-of-Distribution implementation, please refer to the paper "Out-of-Distribution Detection for Neurosymbolic Autonomous Cyber Agents" which can be referenced as 
 
 @INPROCEEDINGS{OODD,<br>
-  author={Samaddar, Ankita and Potteiger, Nicholas and Koutsoukos, Xenofon},<br>  
+  author={Samaddar, Ankita and Potteiger, Nicholas and Koutsoukos, Xenofon}, 
   booktitle={2025 IEEE 4th International Conference on AI in Cybersecurity (ICAIC)},<br>  
   title={Out-of-Distribution Detection for Neurosymbolic Autonomous Cyber Agents},<br>  
   year={2025},<br>  
