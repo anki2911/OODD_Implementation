@@ -6,3 +6,5 @@ In this work, we develop an out-of-distribution (OOD) Monitoring algorithm that 
 # Steps to use the codebase
 
 1. Install CybORG CAGE-Challenge Scenario 2 from https://github.com/cage-challenge/cage-challenge-2 following the instructions in https://github.com/cage-challenge/cage-challenge-2/blob/main/CybORG/README.md
+2. Run OOD tests with CybORG using evaluation_with_OOD_main.py.
+3. Alternatively, you can generate your own dataset by changing the parameters in Dataset_Generation.py; or use existing datasets by extracting the datasets inside cage-2-ebt/Models/Dataset_train/"adversarial strategy" depending on the strategy you want to work with. You can run the OOD tests offline without the simulator in the loop by using OOD_TEST.py.  
