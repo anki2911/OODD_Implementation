@@ -15,4 +15,6 @@ For more details about the Out-of-Distribution implementation, please refer to t
    
 2. Run OOD tests with CybORG using evaluation_with_OOD_main.py.
    
-3. Alternatively, you can generate your own dataset by changing the parameters in Dataset_Generation.py; or use existing datasets by extracting the datasets inside cage-2-ebt/Models/Dataset_train/"adversarial strategy" depending on the strategy you want to work with. You can run the OOD tests offline without the simulator in the loop by using OOD_TEST.py.  
+3. Alternatively, you can generate your own dataset by changing the parameters in Dataset_Generation.py; or use existing datasets by extracting the datasets inside cage-2-ebt/Models/Dataset_train/"adversarial strategy" where "adversarial strategy" can be either bline or meander. You can run the OOD tests offline without the simulator in the loop by using OOD_TEST.py.
+
+4. The OOD_TEST.py and PNN_TEST.py files can be used to detect OOD situations for any RL based agent with discrete states and discrete actions.
