@@ -14,8 +14,10 @@ Ankita Samaddar, Nicholas Potteiger, Xenofon Koutsoukos, "Out-of-Distribution De
 
 1. Install CybORG CAGE-Challenge Scenario 2 from https://github.com/cage-challenge/cage-challenge-2 following the instructions in https://github.com/cage-challenge/cage-challenge-2/blob/main/CybORG/README.md
    
-2. Run OOD tests with CybORG using evaluation_with_OOD_main.py.
+2. To facilitate strategy switching, download the version of CybORG that allows strategy switching from https://github.com/anki2911/Cage_Challenge_2_StrategySwitch and follow the instructions in Step 1 
    
-3. Alternatively, you can generate your own dataset by changing the parameters in Dataset_Generation.py; or use existing datasets by extracting the datasets inside cage-2-ebt/Models/Dataset_train/"adversarial strategy" where "adversarial strategy" can be either bline or meander. You can run the OOD tests offline without the simulator in the loop by using OOD_TEST.py.
+3. Run OOD tests with CybORG using evaluation_with_OOD_main.py.
+   
+4. Alternatively, you can generate your own dataset by changing the parameters in Dataset_Generation.py; or use existing datasets by extracting the datasets inside cage-2-ebt/Models/Dataset_train/"adversarial strategy" where "adversarial strategy" can be either bline or meander. You can run the OOD tests offline without the simulator in the loop by using OOD_TEST.py.
 
-4. The OOD_TEST.py and PNN_TEST.py files can be used to detect OOD situations for any RL based agent with discrete states and discrete actions by incorporating different datasets to train the PNN.
+5. The OOD_TEST.py and PNN_TEST.py files can be used to detect OOD situations for any RL based agent with discrete states and discrete actions by incorporating different datasets to train the PNN.
