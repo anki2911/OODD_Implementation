@@ -14,7 +14,7 @@ from Wrappers.ChallengeWrapper2 import ChallengeWrapper2
 from Agents.MainAgent import MainAgent
 import random
 
-import py_trees
+import py_trees_devel.py_trees as py_trees
 import evaluation_bt_nodes_with_OOD as bt_nodes
 
 import torch
@@ -29,7 +29,7 @@ import PNN_TEST
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-MAX_EPS = 10
+MAX_EPS = 1
 agent_name = 'Blue'
 random.seed(0)
 

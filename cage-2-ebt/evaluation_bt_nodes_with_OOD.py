@@ -1,4 +1,4 @@
-import py_trees
+import py_trees_devel.py_trees as py_trees
 import numpy as np
 import copy
 from Agents.PPOAgent import PPOAgent
@@ -85,7 +85,7 @@ class ChangeStrat(py_trees.behaviour.Behaviour):
         else:
             # print("bline loaded")
             self.blackboard.agent.agent = self.blackboard.agent.load_bline()
-            #self.blackboard.OOD_Model = self.blackboard.PNN_Bline
+            self.blackboard.OOD_Model = self.blackboard.PNN_Bline
 
         return py_trees.common.Status.SUCCESS
 
