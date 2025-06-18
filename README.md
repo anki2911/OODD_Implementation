@@ -16,7 +16,7 @@ Ankita Samaddar, Nicholas Potteiger, Xenofon Koutsoukos, "Out-of-Distribution De
    
 2. To facilitate strategy switching, download the modified version of CybORG that allows strategy switching from https://github.com/anki2911/Cage_Challenge_2_StrategySwitch and follow the instructions in Step 1 
    
-3. Run OOD tests with CybORG using evaluation_with_OOD_main.py.
+3. Run OOD tests with CybORG using evaluation_with_OOD_main.py. Run evaluation_with_OOD.py if you want to run Strategy Switching to test different Red Agent strategies.
    
 4. Alternatively, you can generate your own dataset by changing the parameters in Dataset_Generation.py; or use existing datasets by extracting the datasets inside cage-2-ebt/Models/Dataset_train/"adversarial strategy" where "adversarial strategy" can be either B_line or Meander. You can run the OOD tests offline without the simulator in the loop by using OOD_TEST.py.
 
